@@ -59,12 +59,6 @@ a:hover {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 480px) {
-    #dynamic-footer {
-        display: none !important;
-    }
-}
-
 .main,
 .container > header {
 	width: 90%;
@@ -203,27 +197,6 @@ a:hover {
 }
 .bp-icon-prev:after {
 	content: "\e004";
-}
-
-@media screen and (max-width: 55em) {
-
-	.container > header h1,
-	.container > header nav {
-		float: none;
-	}
-
-	.container > header > span,
-	.container > header h1 {
-		text-align: center;
-	}
-
-	.container > header nav {
-		margin: 0 auto;
-	}
-
-	.container > header > span {
-		text-indent: 15px;
-	}
 }
 
 #vm-image-1 {
